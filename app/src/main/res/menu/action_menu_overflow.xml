@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item 
+         android:id="@+id/item_new_folder"
+         android:title="@string/action_new_folder"
+         android:showAsAction="never"/>
+    
+    <item 
+         android:id="@+id/item_new_file"
+         android:title="@string/action_new_file"
+         android:showAsAction="never"/>
+        
+    <item 
+         android:id="@+id/item_paste"
+         android:title="@string/action_paste"
+         android:visible="false"
+         android:showAsAction="never"/>
+     
+    <item 
+         android:id="@+id/item_properties"
+         android:title="@string/action_properties"
+         android:showAsAction="never"/>    
+ 
+    <item 
+         android:id="@+id/item_bookmark"
+         android:title="@string/action_bookmark"
+         android:showAsAction="never"/>  
+         
+    <item 
+         android:id="@+id/item_download_dir"
+         android:title="@string/action_set_download_dir"
+         android:showAsAction="never"/>   
+         
+</menu>

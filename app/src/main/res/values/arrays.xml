@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="account_type">
+        <item>Dropbox</item>
+        <item>Google Drive</item>
+    </string-array>
+</resources>

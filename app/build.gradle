@@ -1,0 +1,49 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.simplecloud.android"
+        minSdkVersion 14
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/ASL2.0'
+    }
+}
+
+dependencies {
+    compile 'com.google.http-client:google-http-client-gson:1.20.0'
+    compile 'com.google.android.gms:play-services-drive:7.5.0'
+    compile 'commons-io:commons-io:2.4'
+    compile 'commons-lang:commons-lang:2.6'
+    compile 'com.google.api-client:google-api-client:1.20.0'
+    compile 'com.google.api-client:google-api-client-android:1.20.0'
+    compile 'com.google.apis:google-api-services-drive:v2-rev174-1.20.0'
+    compile 'com.googlecode.json-simple:json-simple:1.1.1'
+    compile files('libs/dropbox-android-sdk-1.6.1.jar')
+
+    configurations {
+        all*.exclude group: 'org.apache.httpcomponents', module: 'httpclient'
+        all*.exclude group: 'com.android.support', module: 'support-v7'
+        all*.exclude group: 'org.hamcrest', module: 'hamcrest-core'
+    }
+
+    //./gradlew :app:dependencies
+}

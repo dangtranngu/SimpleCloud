@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/bookmark_fIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:contentDescription="@null"
+        android:padding="3dp" />
+
+    <TextView
+        android:id="@+id/bookmark_fPath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/bookmark_fIcon"
+        android:singleLine="true"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/bookmark_fName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bookmark_fPath"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_gravity="left"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/bookmark_fIcon"
+        android:ellipsize="marquee"
+        android:textSize="16sp"
+        android:singleLine="true"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

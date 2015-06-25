@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Accounts Management" >
+        <Preference
+                android:title="@string/add_account"
+                android:key="prefAddAccount"
+                android:enabled="true"
+                android:icon="@drawable/add_account"/>
+<!--         <Preference -->
+<!--                 android:title="@string/edit_account" -->
+<!--                 android:key="prefEditAccount" -->
+<!--                 android:enabled="true" -->
+<!--                 android:icon="@drawable/edit_account"/>    -->
+        <Preference
+                android:title="@string/delete_account"
+                android:key="prefDeleteAccount"
+                android:enabled="true"
+                android:icon="@drawable/delete_account"/>                      
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Others" >
+        <Preference 
+            android:title="@string/about"
+            android:key="prefAbout"
+            android:enabled="true"
+            android:icon="@drawable/about"/>        
+        <Preference
+            android:title="@string/send_feedback"
+            android:key="prefSendFeedback"
+            android:enabled="true"
+            android:icon="@drawable/send_feedback"/>
+      
+    </PreferenceCategory>
+</PreferenceScreen>

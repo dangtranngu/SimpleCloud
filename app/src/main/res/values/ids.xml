@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="drawer_layout" type="id"/>
+    <item name="content_frame" type="id"/>
+    <item name="left_drawer" type="id"/>
+    <item name="swipe_container" type="id"/>    
+    <item name="searchfield" type="id"/>
+    <item name="explorer_fIcon" type="id"/>
+    <item name="explorer_fName" type="id"/>
+    <item name="explorer_checkbox" type="id"/>
+    
+    <item name="drawer_title" type="id"/>
+    <item name="drawer_item_layout" type="id"/>
+    <item name="drawer_icon" type="id"/>
+    <item name="drawer_name" type="id"/>
+    <item name="drawer_bookmark" type="id"/>
+    
+    <item name="drawer_progress_title" type="id"/> 
+    <item name="drawer_progressbar" type="id"/> 
+    <item name="drawer_progress_destination" type="id"/> 
+    <item name="drawer_progress_separators" type="id"/>      
+    <item name="drawer_progress_message" type="id"/>  
+    <item name="drawer_progress_buttons" type="id"/> 
+    <item name="drawer_progress_button_left" type="id"/>
+    <item name="drawer_progress_button_right" type="id"/>     
+        
+    <item name="actionbar_hscroll" type="id"/>
+    <item name="actionbar_hscroll_layout" type="id"/>      
+    <item name="service_icon" type="id"/> 
+    <item name="account_name" type="id"/> 
+    <item name="checked_account_name" type="id"/> 
+    <item name="account_list" type="id"/> 
+           
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item_download"
+        android:icon="@drawable/action_download"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_download"
+        android:titleCondensed="Download">
+    </item>
+    <item
+        android:id="@+id/item_share"
+		android:icon="@drawable/action_share"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_share"
+        android:titleCondensed="Share">
+    </item>    
+    <!--         android:actionProviderClass="android.widget.ShareActionProvider" -->
+    <item
+        android:id="@+id/item_copy"
+        android:icon="@drawable/action_copy"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_copy"
+        android:titleCondensed="Copy">
+    </item>
+    <item
+        android:id="@+id/item_move"
+        android:icon="@drawable/action_cut"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_cut"
+        android:titleCondensed="Cut">
+    </item>
+    <item
+        android:id="@+id/item_delete"
+        android:icon="@drawable/action_delete"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_delete"
+        android:titleCondensed="Delete">
+    </item>
+    <item
+        android:id="@+id/item_properties"
+        android:icon="@drawable/action_properties"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_properties"
+        android:titleCondensed="Properties">
+    </item>
+    <item
+        android:id="@+id/item_rename"
+        android:showAsAction="never"
+        android:title="@string/action_rename"
+        android:titleCondensed="Rename">
+    </item>
+    <item
+        android:id="@+id/item_zip"
+        android:showAsAction="never"
+        android:title="@string/action_zip"
+        android:titleCondensed="Create zip">
+    </item>
+    <item
+        android:id="@+id/item_bookmark"
+        android:icon="@drawable/bookmark"
+        android:showAsAction="never"
+        android:title="@string/action_bookmark"
+        android:titleCondensed="Set bookmark">
+    </item>
+
+    <item
+        android:id="@+id/item_select_all"
+        android:showAsAction="never"
+        android:title="@string/action_select_all"
+        android:titleCondensed="Select all">
+    </item>
+
+</menu>
